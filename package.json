@@ -1,0 +1,17 @@
+{
+  "name": "communism-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "communism.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "xml2js": "^0.6.0"
+  }
+}
