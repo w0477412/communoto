@@ -10,7 +10,7 @@ const axios = require('axios');
 
 //import pusherpush notifications
 //import * as PusherPushNotifications from "@pusher/push-notifications-web"; - ??
-const PusherPushNotifications = require("@pusher/push-notifications-web");
+//const PusherPushNotifications = require("@pusher/push-notifications-web");
 
 
 //link file
