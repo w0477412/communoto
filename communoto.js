@@ -19,6 +19,16 @@ const jsonFile = 'https://restapifrontoffice.reservauto.net/api/v2/Vehicle/FreeF
 //call checkForCalls 
 checkForCars();
 
+<script>
+  const beamsClient = new PusherPushNotifications.Client({
+    instanceId: 'b3137c9c-5f05-4c42-83e3-8bbef50427c6',
+  });
+
+  beamsClient.start()
+    .then(() => beamsClient.addDeviceInterest('hello'))
+    .then(() => console.log('Successfully registered and subscribed!'))
+    .catch(console.error);
+</script>
 
 
 function checkForCars()
